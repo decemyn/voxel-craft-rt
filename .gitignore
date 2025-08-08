@@ -1,0 +1,60 @@
+# Node dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Build outputs / caches
+dist/
+build/
+.cache/
+.parcel-cache/
+.vite/
+.turbo/
+
+# Framework outputs
+.next/
+out/
+.vercel/
+
+# Misc caches
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors/IDE
+.idea/
+.vscode/
+*.swp
+
+# Test snapshots/artifacts
+__snapshots__/
+
+# Temporary
+*.tmp
+*.temp

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voxel Craft - Minimal Minecraft-like</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.159.0/build/three.module.js"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="overlay">
+      <div id="title">Voxel Craft</div>
+      <div id="hint">Click to lock mouse. WASD to move, Space/Shift up/down, Mouse to look.</div>
+      <div id="hint2">Left click: break, Right click: place. 1-9 select hotbar. I: Inventory, C: Crafting, T: Toggle Ray Tracing.</div>
+      <div id="rt-indicator" class="indicator">RT: OFF</div>
+    </div>
+
+    <div id="crosshair">+</div>
+
+    <div id="hotbar"></div>
+
+    <div id="inventory" class="panel hidden">
+      <div class="panel-title">Inventory (I to close)</div>
+      <div id="inventory-grid" class="grid"></div>
+    </div>
+
+    <div id="crafting" class="panel hidden">
+      <div class="panel-title">Crafting (C to close)</div>
+      <div id="crafting-list"></div>
+    </div>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+  </html>
+
+
