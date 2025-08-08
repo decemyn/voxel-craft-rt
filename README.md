@@ -1,4 +1,5 @@
 ## Voxel Craft (Minimal Minecraft-like in Web)
+<img width="1339" height="956" alt="image" src="https://github.com/user-attachments/assets/e85b443d-f5d5-43ea-bc6e-ad90c0424496" />
 
 A small voxel sandbox built with Three.js. Features chunked world generation, block breaking/placing, inventory and crafting, plus optional experimental real-time ray-traced effects (WebGL2), time-of-day lighting, fog, and rain.
 
